@@ -1,30 +1,15 @@
-App Name: User Input App
+# Scroll App
 
-Description:
-This is a simple Android app that allows users to enter their name and display a greeting message like "Hi [name]".
+This is a simple **Android application** designed to showcase the use of a **ScrollView** to create a scrollable UI. The app also integrates the **Edge-to-Edge** feature, enabling the content to be displayed without interference from the system's status or navigation bars.
 
-Features:
-- EditText input field for name
-- Button to submit name
-- TextView updates with custom greeting
+## Features
 
-How to Use:
-1. Open the app.
-2. Type your name in the text box.
-3. Click the Submit button.
-4. You'll see a message saying "Hi [Your Name]".
+- **Edge-to-Edge Support**: Ensures that your app content utilizes the full screen space, including the areas typically occupied by system UI.
+- **ScrollView**: Used to make the content scrollable, ensuring the user can access all UI elements regardless of screen size.
+- **Buttons**: A series of buttons in a vertical layout, demonstrating simple UI elements within a scrollable view.
 
-Tech Stack:
-- Language: Java
-- IDE: Android Studio
-- Layout: ConstraintLayout
+## Setup Instructions
 
-File Summary:
-- MainActivity.java → App logic for handling user input
-- activity_main.xml → UI layout for input and output
-
-Author: Hetvi
-Date: 18-04-2025
-
-Notes:
-This is a beginner-friendly project for learning how EditText, Button, and TextView work in Android.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/HetviGajjar/scroll
